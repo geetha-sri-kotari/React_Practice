@@ -1,0 +1,15 @@
+.header-body, .header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-body {
+    height: 20%;
+    width: 100%;
+    font-size: 20px;
+}
+.header-nav {
+    list-style: none;
+    gap: 50px;
+}
