@@ -19,11 +19,11 @@
     align-items: center;
     flex-direction: column;
     color: white;
+    transition: transform 0.4s ease;
 }
 .Card p {
     font-size: 20px;
 }
 .Card:hover {
-    height: 320px;
-    width: 320px;
+    transform: scale(1.04);
 }
