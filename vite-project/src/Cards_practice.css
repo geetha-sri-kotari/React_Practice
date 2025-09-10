@@ -1,0 +1,29 @@
+.Cards_Parent {
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-color: rgb(54, 54, 49);
+}
+.Card {
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+    background: linear-gradient(to right, skyblue, navy);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.Card p {
+    font-size: 20px;
+}
+.Card:hover {
+    height: 320px;
+    width: 320px;
+}
