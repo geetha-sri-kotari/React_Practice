@@ -5,6 +5,7 @@ import './App.css'
 import Form from './Form'
 import Cards_practice from './Cards_practice.jsx'
 import UseState_practice from './UseState_practice.jsx'
+import UseEffect_practice from './UseEffect_practice.jsx'
 
 function App() {
   var MyCards = [
@@ -43,6 +44,8 @@ function App() {
       </div> 
       <br/>
       <UseState_practice />
+      <br/>
+      <UseEffect_practice/>
       <br/>
     </>
   )
