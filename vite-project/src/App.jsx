@@ -7,6 +7,8 @@ import Cards_practice from './Cards_practice.jsx'
 import UseState_practice from './UseState_practice.jsx'
 import UseEffect_practice from './UseEffect_practice.jsx'
 import Search_us_ue from './search_us_ue.jsx'
+import ToDoList from './ToDoList.jsx'
+import RouterPractice from './RouterPractice.jsx'
 
 function App() {
   var MyCards = [
@@ -34,7 +36,7 @@ function App() {
   ];
   return (
     <>
-      <Form />
+      {/* <Form />
       <br/>
        <div className='Cards_Parent'>
       {
@@ -43,13 +45,17 @@ function App() {
         })
       }
       </div> 
-      <br/>
+      <hr/>
       <UseState_practice />
       <br/>
       <UseEffect_practice/>
       <br/>
       <h2><u>Search data using UseState and UseEffect</u></h2>
       <Search_us_ue />
+      <br />
+      <ToDoList />
+      <br /> */}
+      <RouterPractice />
       <br />
     </>
   )

@@ -1,0 +1,85 @@
+.tasks-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    list-style: none;
+    gap: 30px;
+}
+.add-task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#add-task-text {
+    font-size: 20px;
+    background-color: rgb(181, 251, 251);
+    border-radius: 6px;
+    padding: 6px;
+    border: 1px solid darkgray;
+}
+#add-task-btn {
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 6px;
+    background-color: green;
+    border: 1px solid darkgray;
+    color: white;
+}
+#add-task-btn:hover {
+    background-color: rgb(4, 165, 4);
+    cursor: pointer;
+}
+.task {
+    background-color: rgb(246, 192, 192);
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    height: 50px;
+    max-height: 100px;
+    width: 80rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.task li {
+    /* background-color: rgb(215, 215, 215); */
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    min-height: 30px;
+    max-height: 200px;
+}
+#task-edit-btn {
+    background-color: darkgray;
+    height: 34px;
+    width: 50px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 6px;
+    border: none;
+}
+#task-edit-btn:hover {
+    background-color: rgba(169, 169, 169, 0.488);
+    cursor: pointer;
+}
+#task-del-btn {
+    background-color: red;
+    height: 34px;
+    width: 60px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 6px;
+    border: none;
+    color: white;
+}
+#task-del-btn:hover {
+    background-color: rgb(255, 93, 93);
+    cursor: pointer;
+}
