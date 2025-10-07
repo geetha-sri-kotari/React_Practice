@@ -1,5 +1,6 @@
 import DefaultRoute from "./DefaultRoute";
 import { Link } from "react-router-dom";
+
 const PageNotFound = () => {
     return (
         <>

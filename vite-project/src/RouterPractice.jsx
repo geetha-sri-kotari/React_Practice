@@ -8,7 +8,7 @@ const RouterPractice = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<DefaultRoute />} />
-                <Route path="/testing" element={<TestingRoute/>} />
+                <Route path="/testing/:data" element={<TestingRoute/>} />
                 <Route path="*" element={<PageNotFound/>} />
             </Routes>
         </BrowserRouter>
