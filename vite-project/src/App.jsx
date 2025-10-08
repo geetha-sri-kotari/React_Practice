@@ -9,6 +9,7 @@ import UseEffect_practice from './UseEffect_practice.jsx'
 import Search_us_ue from './search_us_ue.jsx'
 import ToDoList from './ToDoList.jsx'
 import RouterPractice from './RouterPractice.jsx'
+import ImageEntityTempPath from './ImageEntityTempPath.jsx'
 
 function App() {
   var MyCards = [
@@ -55,8 +56,9 @@ function App() {
       <br />
       <ToDoList />
       <br /> */}
-      <RouterPractice />
-      <br />
+      {/* <RouterPractice />
+      <br /> */}
+      <ImageEntityTempPath />
     </>
   )
 }
